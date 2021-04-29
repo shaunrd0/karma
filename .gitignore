@@ -1,0 +1,6 @@
+secrets.json
+build/
+cache/
+node_modules/
+.idea/
+
