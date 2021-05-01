@@ -1,0 +1,497 @@
+{
+  "manifestVersion": "3.2",
+  "impls": {
+    "027b5eecbe928a9fdf51cdf3fcf2233aa9780998fdc6a99c9ffabfb62673d719": {
+      "address": "0x1d7CfC8e1F2e4D687ceEAF293dEcf6f4FD3CAFF3",
+      "txHash": "0xb6d5c520baf251d1e20d9d262fd41f6de6c67ec8e432ca9e0bc60aa6950f178d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "Karma",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:18"
+          },
+          {
+            "contract": "Karma",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:19"
+          },
+          {
+            "contract": "Karma",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "karma-ERC20.sol:20"
+          },
+          {
+            "contract": "Karma",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "karma-ERC20.sol:21"
+          },
+          {
+            "contract": "Karma",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "karma-ERC20.sol:24"
+          },
+          {
+            "contract": "Karma",
+            "label": "allowed",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "karma-ERC20.sol:27"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "7ac794b5408b50b4c997dd3041533feedf0376c395b876e44423b6972df4ec10": {
+      "address": "0x72fCA82ac8B6FB0e0F8893B8bd5EEF836cb7952c",
+      "txHash": "0x65ba21c1eb2e3b340c5d80dba651bce89fdded4ae6e19b9592744062356c5132",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "Karma1",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "karma-1-ERC20.sol:18"
+          },
+          {
+            "contract": "Karma1",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "karma-1-ERC20.sol:19"
+          },
+          {
+            "contract": "Karma1",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "karma-1-ERC20.sol:20"
+          },
+          {
+            "contract": "Karma1",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "karma-1-ERC20.sol:21"
+          },
+          {
+            "contract": "Karma1",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "karma-1-ERC20.sol:24"
+          },
+          {
+            "contract": "Karma1",
+            "label": "allowed",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "karma-1-ERC20.sol:27"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "3998d9b70b50a95001fb0c2c1eeeb6d6911b0514c501b9bc9776dd34853253f8": {
+      "address": "0xB43228eD01780a8EC786dD0a93a693db61f6fe99",
+      "txHash": "0x79f332c2920771f596bee8f1e2561e5cbaa9880ab77520f22e9b1c9210f09213",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "Karma",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:18"
+          },
+          {
+            "contract": "Karma",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:19"
+          },
+          {
+            "contract": "Karma",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "karma-ERC20.sol:20"
+          },
+          {
+            "contract": "Karma",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "karma-ERC20.sol:21"
+          },
+          {
+            "contract": "Karma",
+            "label": "token",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:23"
+          },
+          {
+            "contract": "Karma",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "karma-ERC20.sol:25"
+          },
+          {
+            "contract": "Karma",
+            "label": "allowed",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "karma-ERC20.sol:28"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "94563e78ca87c0af1f2c387fbf1fa660f3f51021b26bddd598e097c2c28c188f": {
+      "address": "0xe3EF2247eFFC89a2DC53600bCe7153Bb9c8114A4",
+      "txHash": "0xa71017d6c79a420a128c4dbd051f2f2bc83e84294d6f5e6bc96b3bf67c483f31",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "Karma",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:20"
+          },
+          {
+            "contract": "Karma",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "karma-ERC20.sol:21"
+          },
+          {
+            "contract": "Karma",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "karma-ERC20.sol:22"
+          },
+          {
+            "contract": "Karma",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "karma-ERC20.sol:23"
+          },
+          {
+            "contract": "Karma",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "karma-ERC20.sol:26"
+          },
+          {
+            "contract": "Karma",
+            "label": "allowed",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "karma-ERC20.sol:29"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "f98d1047bbcd0fa186791dda2e7ad9c057e7c2d90c685c78aac5504afb475033": {
+      "address": "0x976E8473cFCa5A0AD715f29E486a2bc8bAec5Eb7",
+      "txHash": "0xeb21e0101b2614b26cb44565b4657293e84b99a485fb196ba6289ea428bfde9d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "KarmaV1",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "karma-1-ERC20.sol:18"
+          },
+          {
+            "contract": "KarmaV1",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "karma-1-ERC20.sol:19"
+          },
+          {
+            "contract": "KarmaV1",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "karma-1-ERC20.sol:20"
+          },
+          {
+            "contract": "KarmaV1",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "karma-1-ERC20.sol:21"
+          },
+          {
+            "contract": "KarmaV1",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "karma-1-ERC20.sol:24"
+          },
+          {
+            "contract": "KarmaV1",
+            "label": "allowed",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "karma-1-ERC20.sol:27"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "proxies": [
+    {
+      "address": "0x1f8b713eED3340cE1C40CA6Bb4D1bCC0318E7F94",
+      "kind": "transparent",
+      "txHash": "0x6f851f68462732b3fa5fe1052867f14f84dd69d94d5737cdbc53ac2ad321af62"
+    },
+    {
+      "address": "0x70Dd051Ee7C2DBf52a4A54864A29a931C81c6eb7",
+      "kind": "transparent",
+      "txHash": "0xe5f7f3ae42437b49d485336858ec897fd7b7dbc4c71369c0a323f4d0dd2c6f22"
+    },
+    {
+      "address": "0x5894E784089a1057f4042aF54Ec9acC78ecE5c18",
+      "kind": "transparent",
+      "txHash": "0x07e6d898e8cb76a75940d795770063791080911dec344142b806a0822cb8f936"
+    },
+    {
+      "address": "0x9e165BfC9a3A3086Ca8412fB1E0690C478180057",
+      "kind": "transparent",
+      "txHash": "0xa49e6bda5ccc66e10e77163dc7bd35adccc9506b86ec4fde3b7e3daf20c0050f"
+    },
+    {
+      "address": "0x7788541d6601179aeE712A90AFB85E5DE832F971",
+      "kind": "transparent",
+      "txHash": "0x4c3ddbe87331b269b691f119d95f9ae36588d6146221612bdbb036916f30ee8d"
+    },
+    {
+      "address": "0x1326C0f2713FAC4F8627e70fa815DF1cbAB22aE5",
+      "kind": "transparent",
+      "txHash": "0xe74d3255e9e46afaf4824aafbd662fe4b0a71a6a483652ae87fb76e049e4724c"
+    },
+    {
+      "address": "0x62f0d2E5353d6f6d0c4db5d36b940d42026B76dE",
+      "kind": "transparent",
+      "txHash": "0x2192804b00bba4994d63faa504239b966f7d2cf9fbc2a6c16995536eb321f3a2"
+    },
+    {
+      "address": "0xDeb19B7fbe3B24Bf0D1E0e4d5050c54091a54224",
+      "kind": "transparent",
+      "txHash": "0xa865fc3655dfd75e5bb519d42776e902b4ce3117adc4eb2d2f244a5bb1cf4559"
+    },
+    {
+      "address": "0x0590eF6Acd9a351b2feDF7b07019C3947874E245",
+      "kind": "transparent",
+      "txHash": "0x401b7d9283c12555ea0b8791221cae136ef6dcc7dd6d51c90b8fee1a96e436f9"
+    },
+    {
+      "address": "0xBA139eaE071B9F86e849855473a13E528De0dCa2",
+      "kind": "transparent",
+      "txHash": "0x1efa0caf23c059a9cd83b1284cfab7cba7504505da3d32744b25d3b98f20736d"
+    },
+    {
+      "address": "0xed8cABdFE71F56C3C1F16c281327EC6EA69287b8",
+      "kind": "transparent",
+      "txHash": "0x2c821aa8d4fd03405f8939344e7b489300a715853e395b044a482d03f7f8f93f"
+    },
+    {
+      "address": "0x7CC30155A47d016850c20818f5Ed060a40d1CD77",
+      "kind": "transparent",
+      "txHash": "0x96abef287aa1991d1428689f663caa7bc51b092fe3c8e02231fa5a48d0ae5b1c"
+    },
+    {
+      "address": "0xAE42463702dD3c9B2236e1B6dE71147785ae0FAB",
+      "kind": "transparent",
+      "txHash": "0x20d1e7491a1f8d9769d0d2c4a45aebf18a37755b00ecf9fe2fb0a053393b3cbe"
+    },
+    {
+      "address": "0xf769D7639eFe3baf213f1792C496dEed0B747292",
+      "kind": "transparent",
+      "txHash": "0x750fc5f5aafb00aef5c54451f117e663520ccbe87c76adf85c5470bcf3a6673a"
+    },
+    {
+      "address": "0x7EE6c7Dc9bA67eB9c6836021623a19d6993c9A47",
+      "kind": "transparent",
+      "txHash": "0xec2965c3ac6af8900e5ee9efdc26fe6bd053fa7428da11d4e13c4cc657cced4a"
+    },
+    {
+      "address": "0x488CDD806884AD782e5d7BFB359e44E62016F00A",
+      "kind": "transparent",
+      "txHash": "0x5d35098d3e0731eae352baeb69c2aac1e218d1aec81665a3313b7a063ddbaa65"
+    },
+    {
+      "address": "0x78512F4A12e6EBa462A8aD381F67640eB1CE6ffD",
+      "kind": "transparent",
+      "txHash": "0xcae900067ed3d8d2761d83ada94633a39223ea63757941a1af099b231914945a"
+    }
+  ],
+  "admin": {
+    "address": "0x5aCDF749f25d91d4BF254053dCc5d81Aa7d564A5",
+    "txHash": "0xeb870bd815db7b0eaad8c4cddb39ea10c7962c49796d1d6ad308ef7b9e34c4c1"
+  }
+}
