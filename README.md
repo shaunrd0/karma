@@ -4,8 +4,8 @@
 
 An upgradeable Ethereum ERC20 token minted by my cat, Karma.
 
-[Ropsten Token](https://ropsten.etherscan.io/token/0xdCDA9d33Eb6eEf5C748743Bb1e2B7FBFBc500904)
+[Ropsten Karma Token](https://ropsten.etherscan.io/token/0x438B6a24d3581c379F51Ae389bf37236ae94BEA8)
 
-[Ropsten Contract](https://ropsten.etherscan.io/address/0xdCDA9d33Eb6eEf5C748743Bb1e2B7FBFBc500904)
+[Ropsten TransparentUpgradeableProxy Contract](https://ropsten.etherscan.io/address/0x438B6a24d3581c379F51Ae389bf37236ae94BEA8#readProxyContract)
 
-[Current KarmaV3 Contract](https://ropsten.etherscan.io/address/0x9e3be3194de7a033f82e7ac121b1036dd817f4c7#code)
+[Karma Contract](https://ropsten.etherscan.io/address/0x957684dC3De2b93154b2561c7bC96875306E39A0#code)
