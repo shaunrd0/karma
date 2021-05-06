@@ -2,6 +2,10 @@
 
 ![Karmatoken](karmatoken.jpg)
 
-An Ethereum ERC20 token minted by my cat, Karma. 
+An upgradeable Ethereum ERC20 token minted by my cat, Karma.
 
-[Ropsten ERC20 Token](https://ropsten.etherscan.io/token/0x6f502849750960cdb3c225bedab6a05065f85855)
+[Ropsten Token](https://ropsten.etherscan.io/token/0xdCDA9d33Eb6eEf5C748743Bb1e2B7FBFBc500904)
+
+[Ropsten Contract](https://ropsten.etherscan.io/address/0xdCDA9d33Eb6eEf5C748743Bb1e2B7FBFBc500904)
+
+[Current KarmaV3 Contract](https://ropsten.etherscan.io/address/0x9e3be3194de7a033f82e7ac121b1036dd817f4c7#code)

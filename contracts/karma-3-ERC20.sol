@@ -14,11 +14,21 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 // Karma Contract
 // ----------------------------------------------------------------------------
 
-
-contract Karma is Initializable, ERC20Upgradeable
+contract KarmaV3 is Initializable, ERC20Upgradeable
 {
     function initialize(string memory name, string memory symbol, uint256 initialSupply) public virtual initializer {
         __ERC20_init(name, symbol);
         _mint(_msgSender(), initialSupply);
     }
+
+    function isToken() public pure returns (bool)
+    {
+        return true;
+    }
+
+    function getAddress() public view returns (address)
+    {
+        return address(this);
+    }
+
 }
